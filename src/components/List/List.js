@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import ContactItem from './ContactItem';
+import ContactItem from '../ContactItem/ContactItem';
 const List = ({ contacts, filter, deleteContact }) => {
   return (
     <ul>

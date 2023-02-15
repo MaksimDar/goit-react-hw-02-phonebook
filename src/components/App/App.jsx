@@ -1,10 +1,10 @@
 import React from 'react';
 import { Component } from 'react';
 import { nanoid } from 'nanoid';
-import List from './List';
+import List from '../List/List';
 import { InputHeader } from './App.styled';
-import Form from './Form';
-import Filter from './Filter';
+import Form from '../Form/Form';
+import Filter from '../Filter/Filter';
 
 class App extends Component {
   state = {
